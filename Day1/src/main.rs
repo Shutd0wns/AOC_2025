@@ -4,8 +4,7 @@ use regex::Regex;
 use extend::ext;
 
 fn main() {
-    let (solution1, solution2) = solve_input("C:\\Users\\Radek\\RustroverProjects\\AOC_2025\\Day1\\src\\input.txt");
-    //let (solution1, solution2) = solve_input("C:\\Users\\Radek\\RustroverProjects\\AOC_2025\\Day1\\src\\restInput.txt");
+    let (solution1, solution2) = solve_input("src/input.txt");
     println!("Solution 1 is {solution1}");
     println!("Solution 2 is {solution2}");
 }
